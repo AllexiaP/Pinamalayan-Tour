@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pinamalayan Tour - Create Account</title>
+    <link rel="stylesheet" href="intro.css">
+    <link rel="icon"  href="/images/logo.png" type="images/png">
+</head>
+<body>
+    <div class="create">
+
+        <div class="create-content">
+
+            <form action="#" method="post">
+
+                <h2>Create Account</h2>
+
+                <div class="input-box">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+
+                <div class="input-box">
+                    <input type="email" placeholder="Username" required>
+                </div>
+
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                </div>
+
+                <div class="instructions">
+                    <p>Fill in the form to create your account.</p>
+                </div>
+
+
+                <button type="submit" class="btn" onclick="showAlert()"><a href="login.html">Create Account</a></button>
+
+                <div class="log">
+                    <p>Already have an account?<a href="login.html">Login</a></p>
+                </div>
+
+                <div class="privacy-info">
+                    <p>By creating an account, you agree to our <a href="terms.html">Terms of Use</a> and you've read our <a href="privacy.html">Privacy Policy</a>.</p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function showAlert() {
+            alert("Account Created Successfully!");
+        }
+    </script>
+
+</body>
+</html>

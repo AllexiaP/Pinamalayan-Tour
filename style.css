@@ -1,0 +1,380 @@
+body{
+    position: relative;
+    background-color: rgb(148, 148, 148);
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.header{
+  background-color: rgb(25, 97, 53);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  text-align: center;
+  font-size: 1vw;
+}
+
+.nav{
+    background-color: #333;
+}
+
+.nav a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 1vw;
+  }
+  
+  li {
+    float: left;
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: #ddd;
+      color: black;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Responsive styles */
+@media screen and (max-width: 768px) {
+  body{
+    margin-right: 0;
+    margin-bottom: 10px;
+	 float: none;
+   text-align: center;
+    width: 100%;
+  }
+  .nav a{
+    padding: 5px; 
+  }
+}
+
+  
+  .home-content {
+    background-color: rgb(44, 155, 129);
+    padding: 20px;
+    margin: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+  }
+
+  .home-content-head{
+    background-color: rgb(25, 97, 69);
+    padding: 20px;
+    margin: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+  }
+
+  .home-content-head img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .home-content h2{
+    color: white;
+    text-align: center;
+  }
+
+  .home-content img{
+    width: 100%;
+    height: auto;
+  }
+
+  .img{
+    overflow: hidden;
+    position: relative;
+  }
+
+  .img iframe{
+    width: 100%;
+    height: auto;
+  }
+
+  .history-content img{
+    width: 100%;
+    height: auto;
+  }
+
+  .home-content p{
+    padding: 0 20px;
+    text-indent: 50px;
+    color: white;
+    text-align: justify;
+  }
+
+  .history-content {
+    background-color: rgb(44, 155, 129);
+    padding: 20px;
+    margin: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+  }
+
+  .history-content-head{
+    background-color: rgb(25, 97, 69);
+    padding: 20px;
+    margin: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+  }
+
+  .history-content h2{
+    color: white;
+    text-align: center;
+  }
+
+  .history-content p{
+    padding: 0 20px;
+    text-indent: 50px;
+    color: white;
+    text-align: justify;
+  }
+
+  .attraction-content {
+    background-color: rgb(44, 155, 129);
+    padding: 20px;
+    margin: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+  }
+
+  .attraction-content-head{
+    background-color: rgb(25, 97, 69);
+    padding: 20px;
+    margin: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+  }
+
+  .attraction-content img{
+    width: 100%;
+    height: auto;
+  }
+
+
+  .attraction-content h2{
+    color: white;
+    text-align: center;
+  }
+
+  .attraction-content p{
+    padding: 0 20px;
+    padding: 0 20px;
+    color: white;
+    text-align: center;
+  }
+
+  .festival-content {
+    background-color: rgb(44, 155, 129);
+    padding: 20px;
+    margin: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+  }
+
+  .festival-content-head{
+    background-color: rgb(25, 97, 69);
+    padding: 20px;
+    margin: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+  }
+
+  .festival-content img{
+    width: 100%;
+    height: auto;
+  }
+
+
+  .festival-content h2{
+    color: white;
+    text-align: center;
+  }
+
+  .festival-content p{
+    text-indent: 50px;
+    color: white;
+    text-align: justify;
+    padding: 0 20px;
+  }
+
+  .about-content {
+    background-color: rgb(44, 155, 129);
+    padding: 20px;
+    margin: 1rem;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 2v1vww;
+  }
+
+  .about-content-head{
+    background-color: rgb(25, 97, 69);
+    padding: 20px;
+    margin: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+  }
+  
+  .about-content p{
+    text-indent: 50px;
+    color: white;
+    text-align: justify;
+  }
+
+.contact-content {
+  background-color: rgb(44, 155, 129);
+  padding: 20px;
+  margin: 1rem;
+  border-radius: 10px;
+  color: white;
+  font-size: 21vwvw;
+}
+
+.contact-content-head{
+  background-color: rgb(25, 97, 69);
+  padding: 20px;
+  margin: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-size: 1vw;
+}
+
+.privacy-content {
+  background-color: rgb(44, 155, 129);
+  padding: 20px;
+  margin: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-size: 1vw;
+}
+
+.privacy-content-head{
+  background-color: rgb(25, 97, 69);
+  padding: 20px;
+  margin: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-size: 1vw;
+}
+
+.privacy-content h2{
+  color: white;
+  text-align: center;
+}
+
+.privacy-content p{
+  color: white;
+  text-align: center;
+}
+
+.terms-content {
+  background-color: rgb(44, 155, 129);
+  padding: 20px;
+  margin: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-size: 1vw;
+}
+
+.terms-content-head{
+  background-color: rgb(25, 97, 69);
+  padding: 20px;
+  margin: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-size: 1vw;
+}
+
+.terms-content h2{
+  color: white;
+  text-align: center;
+}
+
+.terms-content p{
+  color: white;
+  text-align: center;
+}
+
+  .footer{
+    background-color: rgb(25, 97, 53);
+    color: rgb(255, 255, 255);
+    padding: 1px;
+    text-align: center;
+    border-bottom: 0;
+    font-size: 1vw;
+  }
